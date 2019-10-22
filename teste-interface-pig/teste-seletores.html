@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div id="tudo">
+        <div id="primeira" class="classe">
+            <p>Primeira</p>
+            <div id="filha-primeira">
+                <p>filha primeira</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="segunda classe">
+            <p>Segunda</p>
+            <div id="filha-segunda">
+                <p>filha segunda</p>
+            </div>
+        </div>
+        <br><br>
+        <ul id="terceiro">
+            <li>Um</li>
+            <li>Dois</li>
+            <li>Três</li>
+            <li>Quatro</li>
+        </ul>
+
+
+
+    </div>
+
+
+    <style>
+        #primeira > p{
+            display: none;
+        }
+    </style>
+
+    <script>
+
+        $('document').ready(function () {
+        /*  $('#tudo > #primeira').css({ "color": "red" });
+            $('.classe > p').fadeIn().append('<strong> APARECEU </strong>');
+            $('#tudo').before('<h1>Inicio dos testes </h1>').after('<h1>Fim dos testes </h1>');
+            $('.segunda').clone().appendTo("#primeira");
+         */
+
+            $('#terceiro>li:eq(0)').css({"background-color":"black","color":"white"});
+
+            $('#terceiro>li:contains("Dois")').css({"text-decoration":"underline"})
+
+
+        })
+
+    </script>
+</body>
+
+</html>

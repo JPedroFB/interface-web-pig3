@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* visão */
+
+#view{
+    padding-left: 80px;
+    transition: 0.4s;
+    height: unset;
+}
+
+#content{
+    padding: 20px;
+}
+
+/* menu */
+
+#menu-topo{
+    border-bottom: 0.5px solid #ff7b0060;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    box-shadow: 1px 1px 5px #9161343d;
+}
+
+.icon:active{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+#menu-lateral{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: #545454;
+    height: 100%;
+    transition: 0.4s;
+    width: 70px;
+    padding: 0px 5px;
+}
+
+#icon-menu{
+    width: 30px; 
+    cursor: pointer; 
+    transition: 1s;
+    margin: 20px 10px 20px 20px;          
+}
+
+.btn{
+    border: 0px;
+    width: 100%;
+    background-color: #373737;
+    padding: 10px 0;
+    color: #FF7A00;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #444444;
+    transition: 0.4s;
+}
+
+.btn:active{
+    background-color: #333333;
+}
+
+.btn:focus{
+    background-color: #252525;
+    border: 0px;
+}
+
+.btn-icon{
+    width: 30px;
+    margin: 0px 10px 0px 20px;
+}
+
+.btn p{
+    display: none;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.btn-drop{
+    width: 15px;
+    display: none;
+}
+
+
+
+
+/* menu */
+
+
+
+
+
+
+
+
+
+
+
+table.tabela{    
+    margin: 0 auto;
+    min-width: 800px;
+    border-collapse: collapse;
+}
+
+td{
+    max-width: 40px;
+    padding: 0 20px 0 20px;
+}
+
+.tabela-titulo{
+    background-color: #c4c4c4;
+    font-size: 20px;
+    height: 54px;
+    text-align: center;
+}
+
+tr.tabela-dados{
+    height: 54px;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-top: 5px solid white;
+    
+}
+
+tr.tabela-dados:hover{
+    background-color: #f0eeee;
+}
+
+tr.tabela-dados:active{
+    background-color: #353535;
+    transition: 1s;
+}
+
+.tabela-mais-dados{
+    display: none;
+    background-color: #E8E8E8;
+    height: unset;   
+}
+
+.tabela-mais-dados p{
+    padding: 10px;
+}
+
+
+
+/* card form */
+
+.card-form{
+    margin: 50px auto;
+    background-color: #F4F4F4;
+    min-height: 400px;
+    max-width: 800px;
+    padding: 10px;
+}
+
+.card-form-title{
+    background-color: #C4C4C4;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    left: 10px;
+}
+
+.campo-formulario,label{
+    border: 0px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: 100%;
+    float: left;
+    min-width: 50%;
+}
+
+#info-pessoal{
+    display: flex;
+    list-style: none;
+}
+
+#info-pessoal img{
+   width: 40px;
+   cursor: pointer;
+}
+
+#info-pessoal li{
+    margin-left: 20px;
+}
+
+/* fim card form */
+
+
+
